@@ -175,8 +175,123 @@ main {
     font-size: 20px;
 }
 
-.skill-description{
+.skill-description {
     width: 204px;
     text-align: left;
     color: #757575;
+}
+
+/* resume section */
+
+.education-experience {
+    display: flex;
+    justify-content: space-around;
+}
+
+.education-container {
+    margin-right: 30px;
+}
+
+.education-experience .resume-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+    margin-top: 113px;
+    margin-bottom: 30px;
+}
+
+.education-title {
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+.eduction-subtitle {
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.education-description {
+    color: #757575;
+    margin-top: 20px;
+
+}
+
+.btn-download {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 113px;
+}
+
+/* contact message section */
+.contact-container {
+    background-color:
+        rgba(255, 248, 243, 1);
+}
+
+.contact-message-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 117px;
+
+}
+
+.social-logos {
+    display: flex;
+}
+
+.social-logos li {
+    list-style: none;
+    margin-right: 24px;
+}
+
+.contact-message-container .section-title {
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.contact-message-container .section-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #474747;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.input-field {
+    width: 461px;
+    height: 54px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: 0;
+    color: #757575;
+    padding: 18px 30px;
+    margin-top: 24px;
+}
+
+.textarea-field {
+    width: 461px;
+    height: 180px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    color: #757575;
+    padding: 18px 30px;
+}
+
+.btn-submit{
+    margin-bottom: 120px;
+}
+
+/* footer section */
+.footer{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
